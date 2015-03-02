@@ -1,0 +1,20 @@
+﻿CSE592 Assignment 1 :
+Report:
+
+The sourcecode is can be viewed at the following link along with the other resource material .https://github.com/nups111/CSE592-Social-Networks-Assignment-1
+To view the ipython notebook click on the following link :  http://nbviewer.ipython.org/github/nups111/CSE592-Social-Networks-Assignment-1/blob/master/CSE%20592%20Assignment%201.ipynb
+
+
+1. li_data.csv : raw data consisting of the adjacency matrix
+2. li_data_ties.csv: Manually drawn tie strength for each friend.
+3. li_data_communities.csv : Manually labelled communities based on the location at which the contact was known. : 1. Stony Brook University 2. VJTI 3. SVIS
+Also there are a few outliers.
+This file is considered as the ground truth data to be compared with the generated spectral clustering graph 
+
+4. Ego Network.png : Graph of ego network
+5. Spectral Network.png: Scatter plot of spectral clustering for all the points
+6. Spectral Graph.png: Convergence of all points using spectral clustering.
+
+The spectral clustering graph (Spectral Network.png) shows three clusters thus matching th ground truth data. However it does not significantly show the outliers.
+
+
